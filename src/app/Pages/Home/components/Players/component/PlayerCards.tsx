@@ -60,9 +60,7 @@ const PremiumMember =()=> {
         style={{
           width: width + "px",
           display: display ? "block" : "none",
-         padding:"10px",
          position:'relative',
-         marginTop:"10%",
         }}
       >
          <Container maxWidth='lg'>
@@ -71,10 +69,10 @@ const PremiumMember =()=> {
                     <Box key={item.imgUrl}>
                       <Box
                       sx={{
-                        boxShadow:`inset 0px 0px 93px 2px ${COLORS.warning.red}`,
+                        boxShadow:`inset 0px 0px 193px 2px ${COLORS.whiteGrey.blueGray}`,
                         m:"5px",
                         borderRadius:"2px 58px",
-                        p:2,
+                        p:1,
                         textAlign:"center"
                       }}
                       

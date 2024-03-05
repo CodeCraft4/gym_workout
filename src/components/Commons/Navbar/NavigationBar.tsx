@@ -19,6 +19,7 @@ import {
 } from "@mui/icons-material";
 import Fitness from '../../../../public/asset/logo1.png'
 import { COLORS } from "@/constant/color";
+import DarkBtn from "../Button/Dark&Light";
 
 
 const drawerWidth = 200;
@@ -181,8 +182,8 @@ export default function DrawerAppBar() {
             <Box
             sx={{display:'flex',alignItems:"center"}} 
             >
+            <DarkBtn/>
             <ShoppingBagOutlined fontSize="large"/>
-            <Avatar/>
             </Box>
           </Box>
         </Toolbar>

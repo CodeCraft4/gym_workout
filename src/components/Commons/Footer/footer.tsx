@@ -19,11 +19,12 @@ import Link from "next/link";
 import Fitness from '../../../../public/asset/logo1.png'
 
 import { COLORS } from "@/constant/color";
+import CustomizeButton from "../Button/CustomizeButton";
 
 const Footer = () => {
   return (
     <div>
-      <Box sx={{ bgcolor: "#bdbdbd",mt:10 }}>
+      <Box sx={{ bgcolor: COLORS.whiteGrey.blueGray,mt:10,color:"white" }}>
         <Container maxWidth="lg">
           <Grid container spacing={3} sx={{ pt: 8 }}>
             <Grid item md={3} sm={6} xs={12}>
@@ -33,11 +34,10 @@ const Footer = () => {
                 width={200}
                 height={100}  
               />
-              <Typography sx={{ mt: 2 }}>Email:info@metrimony.com</Typography>
-              <Typography sx={{ mt: 2 }}>Phone: +1 800 123 456 789</Typography>
+              <Typography sx={{ mt: 2 }}>Email:<u><i>imadshah4104@gmail.com</i></u></Typography>
+              <Typography sx={{ mt: 2 }}>Phone: +92 341-2764-104</Typography>
               <Box sx={{ p: 2 }}>
                 <FacebookIcon
-                  fontSize="large"
                   sx={{
                     "&:hover": {
                       color: COLORS.whiteOrange.orange,
@@ -46,7 +46,6 @@ const Footer = () => {
                   }}
                 />
                 <TwitterIcon
-                  fontSize="large"
                   sx={{
                     "&:hover": {
                       color: COLORS.whiteOrange.orange,
@@ -55,7 +54,6 @@ const Footer = () => {
                   }}
                 />
                 <LinkedInIcon
-                  fontSize="large"
                   sx={{
                     "&:hover": {
                       color: COLORS.whiteOrange.orange,
@@ -64,7 +62,6 @@ const Footer = () => {
                   }}
                 />
                 <InstagramIcon
-                  fontSize="large"
                   sx={{
                     "&:hover": {
                       color: COLORS.whiteOrange.orange,
@@ -76,13 +73,13 @@ const Footer = () => {
             </Grid>
             <Grid item md={3} mt={3} sm={6} xs={12}>
               <Typography sx={{ fontSize: 20, fontWeight: "bold" }}>
-                USEFUL LINKS
+                USEFUL VISIT
               </Typography>
               <List>
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
                     Home
                   </Link>
@@ -90,7 +87,7 @@ const Footer = () => {
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
                     About
                   </Link>
@@ -98,17 +95,17 @@ const Footer = () => {
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Peckage
+                    Exercise
                   </Link>
                 </ListItem>
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Blog
+                    2nd Branch
                   </Link>
                 </ListItem>
               </List>
@@ -121,75 +118,48 @@ const Footer = () => {
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Faq
+                    Exercise
                   </Link>
                 </ListItem>
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Contact
+                    About trainer
                   </Link>
                 </ListItem>
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Term & Condition
+                    Rules & Regulation
                   </Link>
                 </ListItem>
                 <ListItem>
                   <Link
                     href="/"
-                    style={{ fontSize: 15, textDecoration: "none" }}
+                    style={{ fontSize: 15, textDecoration: "none",color:COLORS.whiteOrange.orange}}
                   >
-                    Privacy Policy
+                    Ask Trainer
                   </Link>
                 </ListItem>
               </List>
             </Grid>
             <Grid item md={3} mt={3} sm={6} xs={12}>
               <Typography sx={{ fontSize: 20, fontWeight: "bold" }}>
-                SUBSCRIPTION
+                Visit 2nd Branch
               </Typography>
               <Typography sx={{ mt: 2 }}>
-                Stay in the loop! Subscribe to our newsletter for exclusive
-                update,tips and promotions.
+                 In second branch is in Kalakoot,Swat,Pakistan.
               </Typography>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  border: "1px solid #e0e0e0",
-                  borderRadius: "4px",
-                  mt: 3,
-                  mb:4,
-                }}
-              >
-                <TextField
-                  type="email"
-                  size="small"
-                  fullWidth
-                  placeholder="Enter email"
-                  sx={{ border: "none", borderRadius: 0 }}
-                />
-                <Button
-                  variant="contained"
-                  sx={{
-                    bgcolor: "black",
-                    p: 1,
-                    borderRadius: 0,
-                    m: -2,
-                    "&:hover": { bgcolor: "black" },
-                  }}
-                >
-                  <TelegramIcon sx={{ color: "white" }} />
-                </Button>
-              </Box>
+               <Typography> 
+                To Visit the 2nd Branch!.
+               <CustomizeButton title="2nd Branch"/>
+               </Typography>
             </Grid>
           </Grid>
         </Container>
@@ -199,3 +169,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+const linkStyle={
+  color:COLORS.primary.aqua
+}

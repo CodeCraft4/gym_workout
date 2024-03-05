@@ -13,7 +13,11 @@ const Trainers = () => {
         textAlign:"center",
         fontWeight:900,
         textDecoration:"underline",
-        color: COLORS.whiteGrey.blueGray
+        color: COLORS.primary.aqua,
+        textShadow:{md:"2px 9px 15px black",sm:"2px 9px 15px black",xs:"none"},
+        p:5,
+        fontFamily:"fantasy",
+        letterSpacing:5
        }}
        >
         TRAINER...

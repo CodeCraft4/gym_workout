@@ -156,7 +156,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/"}
+                  href={"/Pages/Players"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   PLAYERS

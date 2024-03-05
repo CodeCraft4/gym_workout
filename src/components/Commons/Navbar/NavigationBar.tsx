@@ -60,7 +60,7 @@ export default function DrawerAppBar() {
         </ListItem>
         <ListItem>
           <Link
-            href={"/Pages/Search"}
+            href={"/Pages/About"}
             style={{ color: "black", textDecoration: "none" }}
           >
             About
@@ -68,7 +68,7 @@ export default function DrawerAppBar() {
         </ListItem>
         <ListItem>
           <Link
-            href={"/Pages/Profile"}
+            href={"/"}
             style={{ color: "black", textDecoration: "none" }}
           >
             Exercise
@@ -76,7 +76,7 @@ export default function DrawerAppBar() {
         </ListItem>
         <ListItem>
           <Link
-            href={"/Pages/FeaturedProfile"}
+            href={"/"}
             style={{ color: "black", textDecoration: "none" }}
           >
             Players
@@ -84,7 +84,7 @@ export default function DrawerAppBar() {
         </ListItem>
         <ListItem>
           <Link
-            href={"/Pages/Stories"}
+            href={"/"}
             style={{ color: "black", textDecoration: "none" }}
           >
             2nd Branch
@@ -139,7 +139,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/Pages/Search"}
+                  href={"/Pages/About"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   ABOUT
@@ -147,7 +147,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/Pages/Profile"}
+                  href={"/"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   EXERCISE
@@ -155,7 +155,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/Pages/FeaturedProfile"}
+                  href={"/"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   PLAYERS
@@ -163,7 +163,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/Pages/Stories"}
+                  href={"/"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   MARKET
@@ -171,7 +171,7 @@ export default function DrawerAppBar() {
               </ListItem>
               <ListItem>
                 <Link
-                  href={"/Pages/Donate"}
+                  href={"/"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   2ndBranch

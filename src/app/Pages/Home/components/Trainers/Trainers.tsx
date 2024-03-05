@@ -1,9 +1,9 @@
-import React from 'react'
-import CenterMode from './component/PlayerCards'
-import { Typography } from '@mui/material'
 import { COLORS } from '@/constant/color'
+import { Typography } from '@mui/material'
+import React from 'react'
+import OurTrainers from './components/OurTrainers'
 
-const PhysiquePlayer = () => {
+const Trainers = () => {
   return (
     <div>
        <Typography
@@ -16,11 +16,11 @@ const PhysiquePlayer = () => {
         color: COLORS.whiteGrey.blueGray
        }}
        >
-        PLAYERS...
+        TRAINER...
        </Typography>
-       <CenterMode/>
+       <OurTrainers/>
     </div>
   )
 }
 
-export default PhysiquePlayer
+export default Trainers

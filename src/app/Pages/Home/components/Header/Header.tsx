@@ -51,7 +51,7 @@ function Fade() {
               >
                 <Typography
                    sx={{
-                    fontSize:{md:300},
+                    fontSize:{md:300,sm:300,xs:300},
                     fontWeight:900,
                     color:COLORS.whiteOrange.orange
                    }}

@@ -1,9 +1,9 @@
 import Footer from "@/components/Commons/Footer/footer";
 import Navbar from "@/components/Commons/Navbar/NavigationBar";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Mulish } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Mulish({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GYM__WORKOUT...",

@@ -14,7 +14,9 @@ const PlayerCard = () => {
                 <Grid
                 key={i}
                 item
-                md={4}
+                md={3}
+                sm={4}
+                xs={12}
                 >
                <Box
                sx={{

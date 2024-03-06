@@ -7,7 +7,7 @@ const Players = () => {
     <div>
       <Typography
       sx={{
-        fontSize:{md:100},
+        fontSize:{md:100,sm:100,xs:50},
         textAlign:"center",
         mt:10,
         p:5,

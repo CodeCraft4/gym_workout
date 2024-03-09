@@ -12,6 +12,11 @@ const nextConfig = {
             "img.freepik.com",
             "www.setforset.com",
             "i.ytimg.com",
+            "hips.hearstapps.com",
+            "encrypted-tbn0.gstatic.com",
+            "www.bodybuilding.com",
+            "i0.wp.com",
+             "www.mensjournal.com",
          ]
     }
 };

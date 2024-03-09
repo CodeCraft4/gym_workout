@@ -10,8 +10,6 @@ const Market = () => {
     const [search, setSearch] = useState("");
     const [data, setData] = useState(PRODUCT);
 
-
-
     useEffect(()=>{
             if (search?.length >= 2) {
                 const searchProduct = data.filter((e) =>

@@ -506,31 +506,77 @@ export const PRODUCT = [
     // Weekly Paractice Games
     export const WEEKLY_GAMES=[
       {
+        id:5,
         day:"Saturday",
+        img:"https://t4.ftcdn.net/jpg/05/70/14/87/360_F_570148789_tROUatPRPFKw8dPBLolxOBMVNQ43Do92.jpg",
+        name:"WINGS",
+        description:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+        GAMES_SETS:[
+          {
+            setImg:"https://hips.hearstapps.com/hmg-prod/images/shot-of-a-man-completing-pull-ups-in-his-gym-royalty-free-image-1699273159.jpg?crop=0.595xw:1.00xh;0.233xw,0&resize=640:*",
+            name:"1 set...",
+            times:"3 times.",
+            raps:12,
+          },
+          {
+            setImg:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM1AID_lZalXUgQyl-mgNFpwBbT5YWdyduNCYEzh6959CGiFa8Yp6K3qAwL7zbOUbKp2c&usqp=CAU",
+            name:"2 set...",
+            times:"3 times.",
+            raps:12,
+          },
+          {
+            setImg:"https://i.ytimg.com/vi/KDEl3AmZbVE/maxresdefault.jpg",
+            name:"3 set...",
+            times:"3 times.",
+            raps:12,
+          },
+          {
+            setImg:"https://www.bodybuilding.com/images/2018/july/back-workouts-for-men-the-6-best-routines-for-bigger-lats-3-700xh.jpg",
+            name:"4 set...",
+            times:"3 times.",
+            raps:12,
+          },
+          {
+            setImg:"https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2015/05/Muscular-Male-Fitness-Model-Doing-The-Lat-Exercise-Pendlay-Row.jpg?quality=86&strip=all",
+            name:"5 set...",
+            times:"3 times.",
+            raps:12,
+          },
+          {
+            setImg:"https://www.mensjournal.com/.image/t_share/MTk2MTM2MTExNjc2MTM5MDEz/bentoveronearmrow.jpg",
+            name:"6 set...",
+            times:"3 times.",
+            raps:12,
+          },
+        ]
+      
+      },
+      {
+        id:3,
+        day:"Sunday",
         img:"https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg?auto=compress&cs=tinysrgb&w=600",
         name:"CHEST",
       },
       {
-        day:"Sunday",
-        img:"https://t4.ftcdn.net/jpg/05/70/14/87/360_F_570148789_tROUatPRPFKw8dPBLolxOBMVNQ43Do92.jpg",
-        name:"WINGS",
-      },
-      {
+        id:4,
         day:"Monday",
         img:"https://musclemagfitness.com/wp-content/uploads/best-biceps-exercises-for-bicep-growth.jpg",
         name:"BICEPS",
       },
       {
+        id:2,
         day:"Tuesday",
         img:"https://img.freepik.com/premium-photo/bodybuilder-strong-man-pumping-up-shoulder-muscles_174475-856.jpg",
         name:"SHOULDER",
       },
       {
+        id:1,
         day:"Wednesday",
         img:"https://www.setforset.com/cdn/shop/articles/best_tricep_exercises_2000x.jpg?v=1702490675",
         name:"TRICEPS",
       },
       {
+        id:6,
         day:"Thursday",
         img:"https://i.ytimg.com/vi/LtcuAeFCrlk/maxresdefault.jpg",
         name:"SQUATS",

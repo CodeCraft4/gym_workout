@@ -59,14 +59,14 @@ export default function DrawerAppBar() {
             Home
           </Link>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Link
             href={"/Pages/About"}
             style={{ color: "black", textDecoration: "none" }}
           >
             About
           </Link>
-        </ListItem>
+        </ListItem> */}
         <ListItem>
           <Link
             href={"/"}
@@ -146,17 +146,17 @@ export default function DrawerAppBar() {
                   HOME
                 </Link>
               </ListItem>
-              <ListItem>
+              {/* <ListItem>
                 <Link
                   href={"/Pages/About"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   ABOUT
                 </Link>
-              </ListItem>
+              </ListItem> */}
               <ListItem>
                 <Link
-                  href={"/"}
+                  href={"/Pages/Exercise"}
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   EXERCISE

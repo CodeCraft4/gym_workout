@@ -1,9 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 // import { PRODUCT } from "@/constant/content";
-import { Box, Container, Grid, TextField, Typography } from "@mui/material";
+import { Box, Container, Grid, Modal, TextField, Typography } from "@mui/material";
 import Image from "next/image";
 import CustomizeButton from "@/components/Commons/Button/CustomizeButton";
+import Link from "next/link";
 
 const ProteinProduct = (props:any) => {
     const {data,search,setSearch} = props
@@ -29,8 +30,9 @@ const ProteinProduct = (props:any) => {
           sx={{ m: 2, bgcolor: "white" }}
         />
         <Grid container spacing={4}>
-          {data?.map((items) => (
-            <Grid key={items.id} item md={4} sm={6} xs={12}>
+          {data?.map((items,i) => (
+            <Grid key={i} item md={4} sm={6} xs={12}>
+              <Link href={`/Pages/Market/${items.id}`}>
               <Box
                 sx={{
                   border: "1px solid gray",
@@ -55,6 +57,7 @@ const ProteinProduct = (props:any) => {
                 <Typography>Review:{items.review}</Typography>
                 <CustomizeButton title="Buy" />
               </Box>
+              </Link>
             </Grid>
           ))}
         </Grid>

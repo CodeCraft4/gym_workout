@@ -181,202 +181,358 @@ export const ALL_PLAYERS=[
 
 export const PRODUCT = [
     {
-        "id": 201,
-        "name": "Nulla",
-        "price": 207,
-        "categoryId": 1,
-        "rate": 2.44,
-        "content": "Culpa sed tenetur incidunt quia veniam sed molliti",
-        "review": 78,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 201,
+        name: "Nulla",
+        price: 207,
+        categoryId: 1,
+        rate: 2.44,
+        content: "Culpa sed tenetur incidunt quia veniam sed molliti",
+        review: 78,
+        imageUrl: "https://dummyimage.com/400x350",
+        RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ]
+
       },
       {
-        "id": 202,
-        "name": "Corporis",
-        "price": 271,
-        "categoryId": 1,
-        "rate": 2.18,
-        "content": "Nam incidunt blanditiis odio inventore. Nobis volu",
-        "review": 67,
-        "imageUrl": "https://dummyimage.com/931x785"
+        id: 202,
+        name: "Corporis",
+        price: 271,
+        categoryId: 1,
+        rate: 2.18,
+        content: "Nam incidunt blanditiis odio inventore. Nobis volu",
+        review: 67,
+        imageUrl: "https://dummyimage.com/931x785",
+        RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/229/741/png-transparent-%D8%AA%D9%86%D8%A7%D8%B3%D8%A8%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D9%85-sport-bodybuilding-mobile-phones-gym-gloves-physical-fitness-sport-boxing-glove-thumbnail.png",
+          "https://w7.pngwing.com/pngs/471/663/png-transparent-brian-s-gym-fitness-centre-personal-trainer-physical-fitness-gym-miscellaneous-text-logo-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ]
       },
       {
-        "id": 203,
-        "name": "Minus",
-        "price": 295,
-        "categoryId": 1,
-        "rate": 0.91,
-        "content": "Quod reiciendis aspernatur ipsum cum debitis. Quis",
-        "review": 116,
-        "imageUrl": "https://dummyimage.com/556x985"
+        id: 203,
+        name: "Minus",
+        price: 295,
+        categoryId: 1,
+        rate: 0.91,
+        content: "Quod reiciendis aspernatur ipsum cum debitis. Quis",
+        review: 116,
+        imageUrl: "https://dummyimage.com/556x985",
+        RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/79/814/png-transparent-fitness-centre-computer-icons-dumbbell-weight-training-gym-physical-fitness-text-sports-thumbnail.png",
+          "https://w7.pngwing.com/pngs/389/138/png-transparent-logo-physical-fitness-fitness-centre-gym-miscellaneous-white-physical-fitness-thumbnail.png",
+          "https://w7.pngwing.com/pngs/471/663/png-transparent-brian-s-gym-fitness-centre-personal-trainer-physical-fitness-gym-miscellaneous-text-logo-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ]
       },
       {
-        "id": 204,
-        "name": "Qui",
-        "price": 280,
-        "categoryId": 1,
-        "rate": 3.11,
-        "content": "Occaecati dolore assumenda facilis error quaerat. ",
-        "review": 78,
-        "imageUrl": "https://dummyimage.com/855x573"
+        id: 204,
+        name: "Qui",
+        price: 280,
+        categoryId: 1,
+        rate: 3.11,
+        content: "Occaecati dolore assumenda facilis error quaerat. ",
+        review: 78,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/855x573"
       },
       {
-        "id": 209,
-        "name": "Similique",
-        "price": 262,
-        "categoryId": 1,
-        "rate": 0.29,
-        "content": "Autem blanditiis similique saepe excepturi at erro",
-        "review": 44,
-        "imageUrl": "http://www.lorempixel.com/577/852"
+        id: 209,
+        name: "Similique",
+        price: 262,
+        categoryId: 1,
+        rate: 0.29,
+        content: "Autem blanditiis similique saepe excepturi at erro",
+        review: 44,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "http://www.lorempixel.com/577/852"
       },
       {
-        "id": 220,
-        "name": "Soluta",
-        "price": 109,
-        "categoryId": 1,
-        "rate": 0.28,
-        "content": "Quos accusamus distinctio voluptates ducimus neque",
-        "review": 34,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 220,
+        name: "Soluta",
+        price: 109,
+        categoryId: 1,
+        rate: 0.28,
+        content: "Quos accusamus distinctio voluptates ducimus neque",
+        review: 34,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },
       {
-        "id": 223,
-        "name": "Quos",
-        "price": 247,
-        "categoryId": 1,
-        "rate": 4.74,
-        "content": "Error voluptate recusandae reiciendis adipisci nec",
-        "review": 188,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 223,
+        name: "Quos",
+        price: 247,
+        categoryId: 1,
+        rate: 4.74,
+        content: "Error voluptate recusandae reiciendis adipisci nec",
+        review: 188,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },
       {
-        "id": 224,
-        "name": "Sunt",
-        "price": 297,
-        "categoryId": 1,
-        "rate": 4.38,
-        "content": "Tempora sed explicabo quae recusandae vitae debiti",
-        "review": 63,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 224,
+        name: "Sunt",
+        price: 297,
+        categoryId: 1,
+        rate: 4.38,
+        content: "Tempora sed explicabo quae recusandae vitae debiti",
+        review: 63,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },
       {
-        "id": 225,
-        "name": "Nemo",
-        "price": 143,
-        "categoryId": 1,
-        "rate": 1.06,
-        "content": "Id pariatur at modi esse distinctio error. Dolores",
-        "review": 116,
-        "imageUrl": "http://www.lorempixel.com/539/402"
+        id: 225,
+        name: "Nemo",
+        price: 143,
+        categoryId: 1,
+        rate: 1.06,
+        content: "Id pariatur at modi esse distinctio error. Dolores",
+        review: 116,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "http://www.lorempixel.com/539/402"
       },
       {
-        "id": 226,
-        "name": "Quo",
-        "price": 150,
-        "categoryId": 1,
-        "rate": 3.07,
-        "content": "Explicabo distinctio labore eius. Culpa provident ",
-        "review": 157,
-        "imageUrl": "https://dummyimage.com/786x94"
+        id: 226,
+        name: "Quo",
+        price: 150,
+        categoryId: 1,
+        rate: 3.07,
+        content: "Explicabo distinctio labore eius. Culpa provident ",
+        review: 157,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/786x94"
       },
       {
-        "id": 227,
-        "name": "Nobis",
-        "price": 195,
-        "categoryId": 1,
-        "rate": 1.68,
-        "content": "Reprehenderit iste quos amet. Natus consequatur in",
-        "review": 30,
-        "imageUrl": "https://dummyimage.com/974x504"
+        id: 227,
+        name: "Nobis",
+        price: 195,
+        categoryId: 1,
+        rate: 1.68,
+        content: "Reprehenderit iste quos amet. Natus consequatur in",
+        review: 30,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/974x504"
       },
       {
-        "id": 228,
-        "name": "Explicabo",
-        "price": 253,
-        "categoryId": 1,
-        "rate": 0.7,
-        "content": "Nihil magni libero sapiente voluptate. Perspiciati",
-        "review": 11,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 228,
+        name: "Explicabo",
+        price: 253,
+        categoryId: 1,
+        rate: 0.7,
+        content: "Nihil magni libero sapiente voluptate. Perspiciati",
+        review: 11,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },
       {
-        "id": 229,
-        "name": "Hic",
-        "price": 178,
-        "categoryId": 1,
-        "rate": 4.83,
-        "content": "Ut assumenda soluta esse officia. Quos quaerat sus",
-        "review": 78,
-        "imageUrl": "http://www.lorempixel.com/152/368"
+        id: 229,
+        name: "Hic",
+        price: 178,
+        categoryId: 1,
+        rate: 4.83,
+        content: "Ut assumenda soluta esse officia. Quos quaerat sus",
+        review: 78,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "http://www.lorempixel.com/152/368"
       },
       {
-        "id": 230,
-        "name": "Occaecati",
-        "price": 199,
-        "categoryId": 1,
-        "rate": 3.17,
-        "content": "Aut quam nisi libero distinctio. Temporibus rerum ",
-        "review": 103,
-        "imageUrl": "https://dummyimage.com/686x327"
+        id: 230,
+        name: "Occaecati",
+        price: 199,
+        categoryId: 1,
+        rate: 3.17,
+        content: "Aut quam nisi libero distinctio. Temporibus rerum ",
+        review: 103,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/686x327"
       },
       {
-        "id": 231,
-        "name": "Consequatur",
-        "price": 152,
-        "categoryId": 2,
-        "rate": 1.74,
-        "content": "Iste repudiandae nostrum ea iste voluptate ducimus",
-        "review": 77,
-        "imageUrl": "http://www.lorempixel.com/264/459"
+        id: 231,
+        name: "Consequatur",
+        price: 152,
+        categoryId: 2,
+        rate: 1.74,
+        content: "Iste repudiandae nostrum ea iste voluptate ducimus",
+        review: 77,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "http://www.lorempixel.com/264/459"
       },
       {
-        "id": 232,
-        "name": "Assumenda",
-        "price": 236,
-        "categoryId": 2,
-        "rate": 2.89,
-        "content": "Sint aperiam voluptatum laudantium laborum at debi",
-        "review": 126,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 232,
+        name: "Assumenda",
+        price: 236,
+        categoryId: 2,
+        rate: 2.89,
+        content: "Sint aperiam voluptatum laudantium laborum at debi",
+        review: 126,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },
       {
-        "id": 233,
-        "name": "Placeat",
-        "price": 115,
-        "categoryId": 2,
-        "rate": 4.7,
-        "content": "Temporibus reiciendis inventore ratione asperiores",
-        "review": 21,
-        "imageUrl": "https://dummyimage.com/698x680"
+        id: 233,
+        name: "Placeat",
+        price: 115,
+        categoryId: 2,
+        rate: 4.7,
+        content: "Temporibus reiciendis inventore ratione asperiores",
+        review: 21,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/698x680"
       },
       {
-        "id": 235,
-        "name": "Facilis",
-        "price": 130,
-        "categoryId": 2,
-        "rate": 0.64,
-        "content": "In sequi cumque quisquam corrupti doloribus suscip",
-        "review": 118,
-        "imageUrl": "http://www.lorempixel.com/10/116"
+        id: 235,
+        name: "Facilis",
+        price: 130,
+        categoryId: 2,
+        rate: 0.64,
+        content: "In sequi cumque quisquam corrupti doloribus suscip",
+        review: 118,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "http://www.lorempixel.com/10/116"
       },
       {
-        "id": 236,
-        "name": "Ratione",
-        "price": 117,
-        "categoryId": 2,
-        "rate": 3.62,
-        "content": "Corrupti sint occaecati doloribus maiores. Exceptu",
-        "review": 30,
-        "imageUrl": "https://dummyimage.com/357x988"
+        id: 236,
+        name: "Ratione",
+        price: 117,
+        categoryId: 2,
+        rate: 3.62,
+        content: "Corrupti sint occaecati doloribus maiores. Exceptu",
+        review: 30,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/357x988"
       },
       {
-        "id": 237,
-        "name": "Non",
-        "price": 230,
-        "categoryId": 2,
-        "rate": 2.28,
-        "content": "Exercitationem debitis enim eum nemo necessitatibu",
-        "review": 112,
-        "imageUrl": "https://dummyimage.com/400x350"
+        id: 237,
+        name: "Non",
+        price: 230,
+        categoryId: 2,
+        rate: 2.28,
+        content: "Exercitationem debitis enim eum nemo necessitatibu",
+        review: 112,
+             RELATED_PRODUCT:[
+          "https://w7.pngwing.com/pngs/790/432/png-transparent-dietary-supplement-whey-protein-isolate-bodybuilding-supplement-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/47/96/png-transparent-whey-protein-bodybuilding-supplement-nutrition-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png",
+          "https://w7.pngwing.com/pngs/680/18/png-transparent-white-powder-in-black-bowl-soy-protein-bodybuilding-supplement-whey-protein-gluten-free-to-remove-the-whey-protein-powder-material-free-logo-design-template-gluten-color-powder-thumbnail.png",
+          "https://w7.pngwing.com/pngs/804/926/png-transparent-dietary-supplement-whey-protein-isolate-muscletech-whey-protein-nutrition-whey-dietary-supplement-thumbnail.png"
+        ],
+        imageUrl: "https://dummyimage.com/400x350"
       },] 
+
+
+    // Weekly Paractice Games
+    export const WEEKLY_GAMES=[
+      {
+        day:"Saturday",
+        img:"https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:"CHEST",
+      },
+      {
+        day:"Sunday",
+        img:"https://t4.ftcdn.net/jpg/05/70/14/87/360_F_570148789_tROUatPRPFKw8dPBLolxOBMVNQ43Do92.jpg",
+        name:"WINGS",
+      },
+      {
+        day:"Monday",
+        img:"https://musclemagfitness.com/wp-content/uploads/best-biceps-exercises-for-bicep-growth.jpg",
+        name:"BICEPS",
+      },
+      {
+        day:"Tuesday",
+        img:"https://img.freepik.com/premium-photo/bodybuilder-strong-man-pumping-up-shoulder-muscles_174475-856.jpg",
+        name:"SHOULDER",
+      },
+      {
+        day:"Wednesday",
+        img:"https://www.setforset.com/cdn/shop/articles/best_tricep_exercises_2000x.jpg?v=1702490675",
+        name:"TRICEPS",
+      },
+      {
+        day:"Thursday",
+        img:"https://i.ytimg.com/vi/LtcuAeFCrlk/maxresdefault.jpg",
+        name:"SQUATS",
+      },
+    ]

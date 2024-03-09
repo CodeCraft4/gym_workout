@@ -69,7 +69,7 @@ export default function DrawerAppBar() {
         </ListItem> */}
         <ListItem>
           <Link
-            href={"/"}
+            href={"/Pages/Exercise"}
             style={{ color: "black", textDecoration: "none" }}
           >
             Exercise
@@ -77,7 +77,7 @@ export default function DrawerAppBar() {
         </ListItem>
         <ListItem>
           <Link
-            href={"/"}
+            href={"/Pages/Players"}
             style={{ color: "black", textDecoration: "none" }}
           >
             Players

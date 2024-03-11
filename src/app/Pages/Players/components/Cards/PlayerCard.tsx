@@ -6,6 +6,8 @@ import { COLORS } from '@/constant/color'
 import Image from 'next/image'
 import Link from 'next/link'
 import TopNav from '../TopBar/TopNav'
+import styles from "./playerCard.module.css";
+
 
 const PlayerCard = () => {
 
@@ -22,7 +24,7 @@ const currentPage = 8;
     <div>
        <Container maxWidth="lg" sx={{mt:10}}>
         <TopNav/>
-        <Grid container spacing={3}>
+        <Grid container spacing={2} sx={{mt:20}}>
             {ALL_PLAYERS.slice(remainingMembers, members).map((items,i)=>(
                 <Grid
                 key={i}
@@ -33,39 +35,30 @@ const currentPage = 8;
                 >
                <Box
                sx={{
-                 border:"1px solid gray",
-                 p:3,
                  textAlign:"center",
                  color:"black",
+                 boxShadow:"3px 7px 39px gray",
+                 p:2,
+                 borderRadius:"50%",
+                 width:225,
                 }}
                >
-                <Link href={`/Pages/Players/${items.id}`}>
+                <Link href={`/Pages/Players/${items.id}`}  className={styles.container}>
                 <Box
                 sx={{display:"flex",justifyContent:"center"}}
                 >
                 <Image 
                 src={items.imgUrl}
+                className={styles.image}
                 width={200}
                 height={200}
-                style={{
-                    borderRadius:"50%",
-                    objectFit:'cover'
-                }}
                 alt="player"/>
+                <div className={styles.contents}>
+                  <Typography fontSize={"1.3rem"} fontWeight={"bold"} fontStyle={"italic"}>
+                    {items?.name} 
+                  </Typography>
+                </div>
                 </Box>
-                <Typography
-                sx={{
-                    fontWeight:'bold',
-                    fontSize:{md:25},
-                    p:2,
-                }}
-                >{items.name}</Typography>
-                <Typography
-                sx={{
-                  fontStyle:"italic",
-                  color:COLORS.grey.grey
-                }}
-                ><b>Comment :</b>{items.description}</Typography>
                </Link>
                </Box>
                 </Grid>

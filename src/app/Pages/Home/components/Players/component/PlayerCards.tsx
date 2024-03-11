@@ -88,7 +88,7 @@ const PremiumMember =()=> {
                       </Box>
                    <Typography sx={{p:1,fontSize:{md:30},fontWeight:900}}>{item.name}</Typography>
                    <Typography sx={{p:1,fontStyle:"italic",color:COLORS.grey.grey}}>{item.description}</Typography>
-                   <Typography sx={{p:1}}><b>Since:</b>{item.since} Years</Typography>
+                   <Typography sx={{p:1}}>{item.since} Years</Typography>
                    <CustomizeButton title={"View Profile"}/>
                     </Box>
                     </Box>

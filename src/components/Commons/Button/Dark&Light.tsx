@@ -1,27 +1,33 @@
 "use client"
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { DarkMode, LightMode } from "@mui/icons-material";
 import {
   CssBaseline,
   IconButton,
   ThemeProvider,
   createTheme,
+  Theme
 } from "@mui/material";
+
+
+
+type Mode = 'light' | 'dark';
+
 
 const DarkBtn = () => {
   // For Dark and light Mode button
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState<Mode>('light');
 
-  const colorMode = React.useMemo(
+  const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {
-        setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+        setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
       },
     }),
     []
   );
 
-  const theme = React.useMemo(
+  const theme = useMemo<Theme>(
     () =>
       createTheme({
         palette: {
@@ -30,6 +36,7 @@ const DarkBtn = () => {
       }),
     [mode]
   );
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

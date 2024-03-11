@@ -33,7 +33,6 @@ const OurTrainers = () => {
             >
               OUR TRAINER
             </Typography>
-                
             <Typography sx={{fontSize: { md: 17,sm:15,xs:13},color:COLORS.grey.grey}}>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde,
               est placeat officiis nihil eveniet ad harum reprehenderit beatae

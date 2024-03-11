@@ -15,7 +15,7 @@ const GYMAbout = () => {
           textShadow:{md:"2px 9px 15px black",sm:"2px 9px 15px black",xs:"none"},
           p:5,
           fontFamily:"fantasy",
-        letterSpacing:5
+          letterSpacing:5
         }}
       >
         ABOUT GYM...
@@ -27,14 +27,12 @@ const GYMAbout = () => {
       }}>
         <Typography>
        Our Best regards,We are thrilled to welcome you to our dynamic fitness center, where
-          wellness meets excellence. At{" "}
-          <b>
+          wellness meets excellence. At
             <i>BAR SWAT GYM AND FITNESS CENTER</i>
-          </b>{" "}
           , our mission is to inspire and empower you on your fitness journey.
           Our state-of-the-art facilities are designed to cater to individuals
           of all fitness levels, providing a supportive environment for your
-          health and well-being.{" "}
+          health and well-being
         </Typography>
         <Typography>
           Our dedicated team of fitness professionals is committed to helping
@@ -43,7 +41,6 @@ const GYMAbout = () => {
           cutting-edge equipment to diverse group classes, we offer a
           comprehensive range of options to keep your workouts engaging and
           effective.
-          <br />
           At <b>`BAR SWAT GYM AND FITNESS CENTER`</b>, we believe in fostering a sense of community and
           camaraderie. Join us in creating a space where fitness becomes a
           lifestyle, not just a routine. Your journey to a healthier, happier
